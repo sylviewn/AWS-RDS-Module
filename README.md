@@ -1,7 +1,7 @@
  ~~~
 
 module "module-repo" {
-  source         = "github.com/sylviewn/AWS-RDS-Module.git"
+  source         = "sylviewn/terraform-AWS-RDS-Module.git"
   region         = "Enter your Providers region here"
   vpc_cidr       = "10.0.0.0/16"
   subnet_cidr    = "10.0.3.0/24"
